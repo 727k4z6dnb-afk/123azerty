@@ -1,0 +1,19 @@
+{
+  "name": "beatelo-converter-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/copy-ffmpeg.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "0.12.10",
+    "@ffmpeg/core": "0.12.10",
+    "@ffmpeg/util": "0.12.1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
